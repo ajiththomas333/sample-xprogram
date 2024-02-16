@@ -1,0 +1,22 @@
+.banner{
+    background-image:url("https://wallpapercrafter.com/desktop2/715975-alone-boy-alone-boy-river-side-sitting-lonely.jpg");
+    height:500px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat ;
+}
+.title{
+    font-size: xx-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+    padding:50px;
+}
+.des{
+
+    
+    
+    font-size: larger;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    margin: 5px 50px;
+    color: #fff;
+}

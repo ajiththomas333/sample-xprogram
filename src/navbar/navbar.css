@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+}
+
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    width: 100%;
+    background-color: #fff;
+
+}
+
+.logo {
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+
+}
+
+ul {
+    flex: 1;
+    list-style: none;
+    text-align:center;
+
+}
+
+ul li {
+    display: inline-block;
+    margin: 30px;
+    cursor: pointer;
+    font-size: 19px;
+}
+ .logoname{
+    margin:15px 10px;
+    color: rgb(42, 165, 58);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.login{
+    height: 32px;
+    width:90px;
+    background-color: rgb(0, 174, 255);
+    border:none;
+    font-size: 20px;
+    color: #fff;
+    margin:20px;
+
+}
