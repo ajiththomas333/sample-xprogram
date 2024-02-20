@@ -7,7 +7,7 @@ function Product() {
         <h3 className="store">suggested for you</h3>
       </div>
       <div className="row">
-        <Card/>
+        
        
         </div>
 
