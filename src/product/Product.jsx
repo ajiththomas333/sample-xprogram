@@ -1,3 +1,4 @@
+import Details from "../details/Details";
 import Card from "./Card";
 import "./Product.css"
 function Product() {

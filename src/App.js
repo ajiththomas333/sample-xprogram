@@ -1,34 +1,21 @@
-import { useEffect } from "react";
-import { useState } from "react";
+
+import Data from "./Data";
 import Banner from "./banner/Banner";
+import Details from "./details/Details";
 import Navbar from "./navbar/Navbar";
 import Product from "./product/Product";
-import Card from "./product/Card";
+
 
 
 function App() {
-const[posts,setdata]=useState([])
 
-  useEffect(()=>{
-      fetch('https://fakestoreapi.com/products')
-    .then(response => response.json())
-    .then(posts => setdata(posts))
-
-
-  },[])
   return (
     <div className="App">
       <Navbar/>
       <Banner/>
       <Product/>
+      <Data/>
       
-       
-
-           <Card data={posts}/>
-           
-
-      
-     
     </div>
   );
 }

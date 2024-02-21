@@ -1,0 +1,10 @@
+.product-detail {
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .product-detail img {
+    max-width: 100%;
+    height: auto;
+  }
