@@ -1,13 +1,13 @@
 
 import "./detail.css"
-function Details({ product }) {
+function Details({set}) {
   
 
 
     return (
         <div className="detail">
             {
-                product.map((obj,index) => {
+                set.map((obj,index) => {
                     return(
                         <div className="product-detail"key={index}>
                         <img src={obj.image} />

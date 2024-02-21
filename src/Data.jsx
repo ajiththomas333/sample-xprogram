@@ -1,6 +1,10 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import Card from "./product/Card";
-import Details from "./details/Details";
+
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+import Sample from"./details/Sample";
+
 
 function Data() {
     const[posts,setposts]=useState([])
@@ -26,7 +30,8 @@ function Data() {
       <div className="data">
            
             <Card data={posts}/>
-           <Details product={posts}/>
+            
+            
         
             
            

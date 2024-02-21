@@ -2,6 +2,7 @@
 import Data from "./Data";
 import Banner from "./banner/Banner";
 import Details from "./details/Details";
+import Sample from "./details/Sample";
 import Navbar from "./navbar/Navbar";
 import Product from "./product/Product";
 
@@ -15,6 +16,7 @@ function App() {
       <Banner/>
       <Product/>
       <Data/>
+   
       
     </div>
   );
